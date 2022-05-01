@@ -16,6 +16,7 @@ async function fetchData(ipAddress, setData, setMlat, setMlong) {
       setMlat(response.data.latitude);
       setMlong(response.data.longitude);
     }).catch((error) => {
+    // eslint-disable-next-line
       console.log(error);
     });
 }

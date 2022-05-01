@@ -18,10 +18,12 @@ const Geoman = () => {
     leafletContainer.on('pm:create', (e) => {
       if (e.layer && e.layer.pm) {
         const shape = e;
+        // eslint-disable-next-line
         console.log(e);
 
         shape.layer.pm.enable();
 
+        // eslint-disable-next-line
         console.log(`object created: ${shape.layer.pm.getShape()}`);
         leafletContainer.pm
           .getGeomanLayers(true)
@@ -34,6 +36,7 @@ const Geoman = () => {
     });
 
     leafletContainer.on('pm:remove', () => {
+      // eslint-disable-next-line
       console.log('object removed');
     });
 
