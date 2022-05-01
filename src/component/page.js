@@ -20,6 +20,8 @@ function Page() {
   const [query, setQuery] = useState('');
   const [ipAddress, setIpAddress] = useState('');
 
+  console.log(data);
+
   useEffect(() => {
     navigator.geolocation.getCurrentPosition((position) => {
       setLatitude(position.coords.latitude);
