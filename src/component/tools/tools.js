@@ -3,6 +3,7 @@ import axios from 'axios';
 
 function getIcon(_iconSize, iconType) {
   return L.icon({
+    // eslint-disable-next-line
     iconUrl: require(`../../style/icons/${iconType}.png`),
     iconSize: [_iconSize],
   });
