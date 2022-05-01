@@ -1,3 +1,22 @@
+# IP ADDRESS TRACKER
+> Ip address tracker fetchs location data using an ip address then displays the location on an interactive map. It also uses the the user's ip address to fetch and display the user's location on the map.
+
+![an image of the portfolio mobile page  webpage](https://user-images.githubusercontent.com/71644515/166159612-25f72aa8-69da-480d-a70d-da474e0536eb.png)
+## Live Demo
+
+[Live Demo Link]()
+
+## Built With
+
+- React
+- JSX
+- CSS3
+- JavaScript
+- LeafletJS
+- Ipapi API
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +87,23 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Author
+
+👤 **Hamid Murambiwa**
+
+- GitHub: [@hamid-murambiwa](https://github.com/hamid-murambiwa/)
+- Twitter: [@Hamid87789454](https://twitter.com/Hamid87789454/)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/hamid-murambiwa/)
+
+## 🤝 Contributing
+
+>Contributions, issues, and feature requests are welcome!
+>Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+>Give a ⭐️ if you like this project!
+
+## 📝 License
+
+>This project is [MIT](./MIT.md) licensed.
