@@ -45,7 +45,7 @@ function Page() {
           <h1>IP Address Tracker</h1>
         </div>
         <form onSubmit={handleSubmit}>
-          <input placeholder="Search for any IP Address or domain" id="ip-input" type="text" />
+          <input placeholder="Search for any IP Address or domain" id="ip-input" type="text" required pattern="((^|\.)((25[0-5])|(2[0-4]\d)|(1\d\d)|([1-9]?\d))){4}$" />
           <div className="btn-container">
             <button type="submit" className="btn-sub"><img src={img} alt="Next" id="next" /></button>
           </div>
