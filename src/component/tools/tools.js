@@ -12,7 +12,6 @@ function getIcon(_iconSize, iconType) {
 async function fetchData(ipAddress, setData, setMlat, setMlong) {
   await axios.get(`http://api.ipapi.com/${ipAddress}?access_key=82068fc4a6e4e8b1946186d3bea35f82`)
     .then((response) => {
-      console.log(response.data);
       setData(response);
       setMlat(response.data.latitude);
       setMlong(response.data.longitude);
