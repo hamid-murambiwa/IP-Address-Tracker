@@ -59,6 +59,8 @@ function Page() {
               <h1>
                 {`${data.data.continent_name},`}
                 {' '}
+                {`${data.data.state_prov},`}
+                {' '}
                 {`${data.data.country_name},`}
                 {' '}
                 {data.data.city}
@@ -104,12 +106,12 @@ function Page() {
               <h1>IP ADDRESS LOCATION:</h1>
               <ul className="pop-info">
                 <li>
-                  <p>Region: </p>
-                  <h3>{data.data.region_name}</h3>
+                  <p>Country Code:</p>
+                  <h3>{data.data.country_code3}</h3>
                 </li>
                 <li>
-                  <p>City: </p>
-                  <h3>{data.data.city}</h3>
+                  <p>Zip Code: </p>
+                  <h3>{data.data.zipcode}</h3>
                 </li>
                 <li>
                   <p>latitude: </p>
