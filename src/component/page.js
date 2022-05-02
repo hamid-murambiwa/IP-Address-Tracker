@@ -60,9 +60,9 @@ function Page() {
                 {`${data.data.continent_name},`}
                 {' '}
                 {`${data.data.state_prov},`}
-                {' '}
+                <br />
                 {`${data.data.country_name},`}
-                {' '}
+                <br />
                 {data.data.city}
               </h1>
             </div>
