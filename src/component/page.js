@@ -56,12 +56,6 @@ function Page() {
         {data.data.zip !== 645748 ? (
           <div className="ip-info">
             <div className="ip-info-container">
-              <p>COUNTRY FLAG</p>
-              <div className="ip-info-img-con">
-                <img src={data.data.location.country_flag} className="flag" alt="flag" />
-              </div>
-            </div>
-            <div className="ip-info-container">
               <p>IP ADDRESS</p>
               <h1>{data.data.ip}</h1>
             </div>
@@ -72,14 +66,19 @@ function Page() {
                 {' '}
                 {`${data.data.country_name},`}
                 {' '}
-                {`${data.data.region_name},`}
-                {' '}
                 {data.data.city}
               </h1>
             </div>
+            <div className="ip-info-container">
+              <p>ISP</p>
+              <h1>{data.data.isp}</h1>
+              {/* <div className="ip-info-img-con">
+                <img src={data.data.country_flag} className="flag" alt="flag" />
+              </div> */}
+            </div>
             <div className="ip-info-container zip">
-              <p>ZIP</p>
-              <h1>{data.data.zip}</h1>
+              <p>TIME AT LOCATION</p>
+              <h1>{data.data.time_zone.current_time}</h1>
             </div>
           </div>
         ) : null}
