@@ -20,9 +20,6 @@ function Page() {
   const [query, setQuery] = useState('');
   const [ipAddress, setIpAddress] = useState('');
 
-  // eslint-disable-next-line
-  console.log(data);
-
   useEffect(() => {
     navigator.geolocation.getCurrentPosition((position) => {
       setLatitude(position.coords.latitude);
@@ -49,9 +46,7 @@ function Page() {
         </div>
         <form onSubmit={handleSubmit}>
           <input placeholder="Search for any IP Address or domain" id="ip-input" type="text" required pattern="((^|\.)((25[0-5])|(2[0-4]\d)|(1\d\d)|([1-9]?\d))){4}$" />
-          <div className="btn-container">
-            <button type="submit" className="btn-sub"><img src={img} alt="Next" id="next" /></button>
-          </div>
+          <button type="submit" className="btn-sub"><img src={img} alt="Next" id="next" /></button>
         </form>
         {data.data.zip !== 645748 ? (
           <div className="ip-info">
@@ -72,9 +67,6 @@ function Page() {
             <div className="ip-info-container">
               <p>ISP</p>
               <h1>{data.data.isp}</h1>
-              {/* <div className="ip-info-img-con">
-                <img src={data.data.country_flag} className="flag" alt="flag" />
-              </div> */}
             </div>
             <div className="ip-info-container zip">
               <p>TIME AT LOCATION</p>

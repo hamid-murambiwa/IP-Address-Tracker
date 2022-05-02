@@ -37,11 +37,6 @@ td {
   box-shadow: #5c5c5c 0 0 50px;
 }
 
-.flag {
-  height: 50px;
-  width: 50px;
-}
-
 .ip-info-img-con {
   display: flex;
   justify-content: center;
@@ -59,26 +54,6 @@ td {
   background-position-x: center;
   background-repeat: no-repeat;
   gap: 25px;
-}
-
-.btn-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  padding: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-  background-color: #000;
-  border-bottom-right-radius: 15px;
-  border-top-right-radius: 15px;
-}
-
-.btn-sub {
-  border: none;
-  color: #fff;
-  background-color: #000;
-  font-size: medium;
 }
 
 form {
@@ -163,10 +138,30 @@ form input:focus {
   border-right: none !important;
 }
 
+.btn-sub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 135% !important;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #000;
+  border: none;
+  color: #fff;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  font-size: medium;
+}
+
+.btn-sub:hover {
+  background-color: rgb(69, 131, 69);
+}
+
 #next {
   background-color: transparent;
-  height: 60%;
-  width: 60%;
+  height: 20px;
+  width: 20px;
 }
 
 .pop-info li {
@@ -210,12 +205,6 @@ form input:focus {
   .title-container {
     margin-top: 2vh;
     font-size: 2vh;
-  }
-
-  .flag {
-    height: 30px;
-    width: 30px;
-    margin-bottom: 5px;
   }
 
   .leaflet-popup-content-wrapper {
