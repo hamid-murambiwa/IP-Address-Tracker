@@ -1,5 +1,5 @@
 # IP ADDRESS TRACKER
-> Ip address tracker fetches location data using an ip address then displays the location on an interactive map. It also uses the the user's ip address to fetch and display the user's location on the map.
+> The ip address tracker app fetchs location data using an ip address then displays the location on an interactive map. It also uses the the user's ip address to fetch and display the user's location on the map.
 
 ![an image of the portfolio mobile page  webpage](https://user-images.githubusercontent.com/71644515/166159612-25f72aa8-69da-480d-a70d-da474e0536eb.png)
 
